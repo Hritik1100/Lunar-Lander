@@ -6,20 +6,25 @@ This project embodies the pursuit of solving one of the quintessential challenge
 
 ## Functionality:
 
-    ### Immersive Environment Interaction: The agent engages with the LunarLander-v2 environment, a meticulously crafted simulation that emulates the complexities of lunar descent. It receives sensory inputs (state observations) and responds with precise actions, akin to the decision-making process of a seasoned astronaut.
-    ### Deep Q-Learning Mastery: At the core of its learning mechanism lies a sophisticated deep Q-network (DQN), meticulously engineered to approximate the elusive Q-values associated with different state-action pairs. This neural architecture empowers the agent to navigate vast state spaces and make informed decisions even in the face of uncertainty.
-    Memory and Experience Reimagined: Drawing inspiration from the human mind's ability to learn from past experiences, the agent maintains a reservoir of memories – a replay memory buffer – where it stores noteworthy encounters. These experiences are then strategically sampled during training sessions, enhancing learning efficiency and fostering adaptability.
-    Striking a Balance with Epsilon-Greedy Exploration: Much like a seasoned explorer venturing into uncharted territory, the agent seamlessly juggles between exploiting known strategies and exploring new avenues. This delicate balance is achieved through an epsilon-greedy exploration strategy, where randomness is embraced, but not at the expense of exploiting learned insights.
-    Target Networks: Forging Stability Amidst Uncertainty: To mitigate the turbulence inherent in learning from consecutive experiences, the agent maintains two distinct neural networks: a local network for immediate decision-making and a target network for long-term strategic planning. This bifurcation shields the learning process from unwarranted fluctuations and fosters smoother convergence.
-    Continuous Iteration and Training: Embarking on an odyssey spanning numerous episodes, the agent tirelessly hones its skills with each successive encounter. Armed with patience and perseverance, it endeavors to refine its strategies until mastery is achieved, as measured by a consistent average score over consecutive episodes.
+1. Immersive Environment Interaction: The agent engages with the LunarLander-v2 environment, a meticulously crafted simulation that emulates the complexities of lunar descent. It receives sensory inputs (state observations) and responds with precise actions, akin to the decision-making process of a seasoned astronaut.
+
+2.Deep Q-Learning Mastery: At the core of its learning mechanism lies a sophisticated deep Q-network (DQN), meticulously engineered to approximate the elusive Q-values associated with different state-action pairs. This neural architecture empowers the agent to navigate vast state spaces and make informed decisions even in the face of uncertainty.
+
+3. Memory and Experience Reimagined: Drawing inspiration from the human mind's ability to learn from past experiences, the agent maintains a reservoir of memories – a replay memory buffer – where it stores noteworthy encounters. These experiences are then strategically sampled during training sessions, enhancing learning efficiency and fostering adaptability.
+
+4. Striking a Balance with Epsilon-Greedy Exploration: Much like a seasoned explorer venturing into uncharted territory, the agent seamlessly juggles between exploiting known strategies and exploring new avenues. This delicate balance is achieved through an epsilon-greedy exploration strategy, where randomness is embraced, but not at the expense of exploiting learned insights.
+
+5. Target Networks: Forging Stability Amidst Uncertainty: To mitigate the turbulence inherent in learning from consecutive experiences, the agent maintains two distinct neural networks: a local network for immediate decision-making and a target network for long-term strategic planning. This bifurcation shields the learning process from unwarranted fluctuations and fosters smoother convergence.
+
+6. Continuous Iteration and Training: Embarking on an odyssey spanning numerous episodes, the agent tirelessly hones its skills with each successive encounter. Armed with patience and perseverance, it endeavors to refine its strategies until mastery is achieved, as measured by a consistent average score over consecutive episodes.
 
 ## Techniques Used:
 
-    Deep Q-Learning: Leveraging the prowess of neural networks to approximate Q-values, enabling efficient navigation of vast state-action spaces.
-    Experience Replay: Embracing the wisdom of past encounters stored in a replay buffer, enhancing learning efficiency and fostering adaptability.
-    Epsilon-Greedy Exploration: Striking a harmonious balance between exploiting known strategies and exploring uncharted territories, fostering a dynamic learning process.
-    Target Networks: Building a stable foundation for learning by maintaining separate networks for immediate decision-making and long-term strategy planning.
-    Continuous Iteration and Training: Embarking on an iterative journey towards mastery, guided by the pursuit of continuous improvement and refinement.
+1. Deep Q-Learning: Leveraging the prowess of neural networks to approximate Q-values, enabling efficient navigation of vast state-action spaces.
+2. Experience Replay: Embracing the wisdom of past encounters stored in a replay buffer, enhancing learning efficiency and fostering adaptability.
+3. Epsilon-Greedy Exploration: Striking a harmonious balance between exploiting known strategies and exploring uncharted territories, fostering a dynamic learning process.
+4. Target Networks: Building a stable foundation for learning by maintaining separate networks for immediate decision-making and long-term strategy planning.
+5. Continuous Iteration and Training: Embarking on an iterative journey towards mastery, guided by the pursuit of continuous improvement and refinement.
 
 ## Results:
 
