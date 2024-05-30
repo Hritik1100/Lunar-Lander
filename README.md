@@ -1,4 +1,4 @@
-# Title: Reinforcement Learning Agent for LunarLander-v2 Environment
+# Title: Reinforcement Learning for LunarLander-v2 Environment
 
 ## Purpose:
 
