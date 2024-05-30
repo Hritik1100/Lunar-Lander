@@ -8,7 +8,7 @@ This project embodies the pursuit of solving one of the quintessential challenge
 
 1. Immersive Environment Interaction: The agent engages with the LunarLander-v2 environment, a meticulously crafted simulation that emulates the complexities of lunar descent. It receives sensory inputs (state observations) and responds with precise actions, akin to the decision-making process of a seasoned astronaut.
 
-2.Deep Q-Learning Mastery: At the core of its learning mechanism lies a sophisticated deep Q-network (DQN), meticulously engineered to approximate the elusive Q-values associated with different state-action pairs. This neural architecture empowers the agent to navigate vast state spaces and make informed decisions even in the face of uncertainty.
+2. Deep Q-Learning Mastery: At the core of its learning mechanism lies a sophisticated deep Q-network (DQN), meticulously engineered to approximate the elusive Q-values associated with different state-action pairs. This neural architecture empowers the agent to navigate vast state spaces and make informed decisions even in the face of uncertainty.
 
 3. Memory and Experience Reimagined: Drawing inspiration from the human mind's ability to learn from past experiences, the agent maintains a reservoir of memories – a replay memory buffer – where it stores noteworthy encounters. These experiences are then strategically sampled during training sessions, enhancing learning efficiency and fostering adaptability.
 
